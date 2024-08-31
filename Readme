@@ -1,0 +1,21 @@
+# Lista de Compras
+
+Este projeto é uma aplicação simples de lista de compras desenvolvida com HTML, CSS e JavaScript. O usuário pode adicionar itens à lista de compras e remover itens conforme necessário.
+
+## Funcionalidades
+
+- Adicionar itens à lista de compras.
+- Remover itens da lista de compras.
+- Interface simples e intuitiva.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Estrutura básica da aplicação.
+- **CSS**: Estilização da aplicação, proporcionando uma interface agradável.
+- **JavaScript**: Adiciona interatividade, permitindo que os itens sejam adicionados e removidos da lista.
+
+## Como Usar
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/lista-de-compras.git
