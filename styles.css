@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo única */
+    color: #000000;
+    font-weight: 500;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Centraliza o logo e adiciona margem inferior */
+    max-width: 150px; /* Ajuste conforme o tamanho desejado */
+}
+
+.shopping-list-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.back-button {
+    display: inline-block;
+    margin: 0px;
+    padding: 0;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;    
+    font-weight: 500;
+    background-color: orangered;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 9px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+li button img {
+    width: 20px;
+    height: 20px;
+}
+
+li button:hover img {
+    filter: brightness(0.8);
+}
+
+.removal-message {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-top: 10px; /* Espaço entre a lista e a mensagem */
+}
+
+.removal-message .exclamation {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #721c24;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.shopping-list-container.dark-mode {
+    background-color: #444;
+    color: #f0f0f0;
+}
+
+input.dark-mode, button.dark-mode, li.dark-mode {
+    background-color: #555;
+    color: #f0f0f0;
+    border: 1px solid #666;
+}

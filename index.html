@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Lista de Compras</h1>
-        <form id="shopping-form">
-            <input type="text" id="item-input" placeholder="Adicione um item..." required>
-            <button type="submit">Adicionar</button>
-        </form>
-        <ul id="shopping-list"></ul>
-    </div>
+	<div class="header">
+		<img src="src/images/logo.svg" alt="Logo" class="logo">
+		<button id="theme-toggle-button" class="theme-toggle-button">
+			 <img id="theme-icon" src="caminho/para/icone-lua.png" alt="Modo escuro">
+		</button>
+  </div>
+	<div class="shopping-list-container">
+		<button class="back-button" onclick="goBack()">
+			 &#8592; Voltar
+		</button>
+		<h1>Compras da semana</h1>
+		<div class="input-group">
+			 <input type="text" id="item-input" placeholder="Adicione um novo item">
+			 <button id="add-item-button">Adicionar Item</button>
+		</div>
+		<ul id="shopping-list"></ul>
+  </div>
     <script src="scripts.js"></script>
 </body>
 </html>
