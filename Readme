@@ -12,7 +12,7 @@ Este projeto é uma aplicação simples de lista de compras desenvolvida com HTM
 
 - **HTML**: Estrutura básica da aplicação.
 - **CSS**: Estilização da aplicação, proporcionando uma interface agradável.
-- **JavaScript**: Adiciona interatividade, permitindo que os itens sejam adicionados e removidos da lista.
+- **JavaScript**: Adiciona interatividade, permitindo que os itens sejam adicionados e removidos da lista e modo Dark-Mode.
 
 ## Como Usar
 
